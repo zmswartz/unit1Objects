@@ -71,7 +71,58 @@ public class turtleWorld
      turtle1.hide();
      turtle2.hide();
      Turtle turtle3 = new Turtle(turtleWorld);
+     turtle3.penUp();
      turtle3.moveTo(250,250);
+     Thread.sleep(500);
+     turtle3.setWidth(100);
+     turtle3.setHeight(100);
+     turtle3.moveTo(100,100);
+     turtle3.penDown();
+     turtle3.turnRight();
+     turtle3.setPenWidth(10);
+     turtle3.forward(100);
+     turtle3.turn(135);
+     turtle3.forward(150);
+     turtle3.turn(-135);
+     turtle3.forward(100);
+     Thread.sleep(200);
+     turtle3.penUp();
+     turtle3.forward(50);
+     turtle3.penDown();
+     turtle3.turn(-75);
+     turtle3.forward(100);
+     turtle3.turn(150);
+     turtle3.forward(100);
+     turtle3.backward(50);
+     turtle3.turn(105);
+     turtle3.forward(20);
+     turtle3.penUp();
+     Thread.sleep(200);
+     turtle3.turn(-75);
+     turtle3.forward(50);
+     turtle3.turn(-105);
+     turtle3.forward(115);
+     turtle3.penDown();
+     turtle3.backward(40);
+     turtle3.turnLeft();
+     turtle3.forward(100);
+     turtle3.turnRight();
+     turtle3.forward(40);
+     turtle3.penUp();
+     Thread.sleep(200);
+     turtle3.forward(75);
+     turtle3.turnRight();
+     turtle3.penDown();
+     turtle3.forward(50);
+     turtle3.turn(-140);
+     turtle3.forward(65);
+     turtle3.backward(65);
+     turtle3.turn(100);
+     turtle3.forward(65);
+     turtle3.backward(65);
+     turtle3.turn(40);
+     turtle3.forward(50);
+     
      
      
     }
